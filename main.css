@@ -12,8 +12,25 @@ body {
 }
 
 #header {
+    color: #DDDDDD;
+    padding: 20px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+#menu {
+    border: 1px solid azure;
+    width: 900px;
+}
+
+#nav-bar-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
