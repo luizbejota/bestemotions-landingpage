@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 400px) {
     body {
         font-size: 1rem;
     }
@@ -9,18 +9,28 @@
 body {
     background: linear-gradient(90deg, #FFEEEE, #DDEFBB);
     font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding: 0px 80px 0px 80px;
+    display: block;
+    justify-content: center;
+
 }
 
 #header {
     color: #DDDDDD;
-    padding: 20px 0;
+    font-size: 10px;
     display: flex;
     justify-content: space-between;
 }
 
+#header-img {
+  width: 5%;
+  height: 5%;
+}
+
 #menu {
     border: 1px solid azure;
-    width: 900px;
+    width: 100%;
 }
 
 #nav-bar-right {
@@ -29,10 +39,19 @@ body {
 }
 
 .nav-link {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
 }
 
-h1 {
-    font-family: 'Fascinate Inline', cursive;
+#footer {
+    border: 1px solid azure;
+    font-size: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.cttBlock {
+  position: relative;
+  margin: 0;
+  width: 100%;
 }
