@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 @media screen and (max-width: 400px) {
-    body {
+  body {
         font-size: 1rem;
     }
 }
 
 body {
-    background: linear-gradient(90deg, #FFEEEE, #DDEFBB);
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-    padding: 0px 80px 0px 80px;
-    display: block;
-    justify-content: center;
-
+  background: linear-gradient(90deg, #FFEEEE, #DDEFBB);
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  padding: 0px 80px 0px 80px;
+  display: inline-block;
+  align-items: center;
 }
 
 #header {
-    color: #DDDDDD;
-    font-size: 10px;
-    display: flex;
-    justify-content: space-between;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #header-img {
@@ -29,29 +27,37 @@ body {
 }
 
 #menu {
-    border: 1px solid azure;
-    width: 100%;
+  width: 100%;
 }
 
 #nav-bar-right {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-link {
-    display: inline-flex;
-    justify-content: space-between;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
-#footer {
-    border: 1px solid azure;
-    font-size: 0.5em;
-    display: flex;
-    justify-content: center;
+#main-logo {
+  width: 20%;
+  height: 20%;
 }
 
 .cttBlock {
   position: relative;
   margin: 0;
   width: 100%;
+}
+
+#form {
+  font-size: 12.5px;
+}
+
+#footer {
+    border: 1px solid #CCC;
+    font-size: 0.5em;
+    display: flex;
+    justify-content: center;
 }
